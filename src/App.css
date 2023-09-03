@@ -1,0 +1,151 @@
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+.mainplan {
+  display: grid;
+  grid-template-columns: 1fr 5px 6fr;
+}
+
+.cart {
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 350px;
+  height: 250px;
+  padding: 5px;
+  position: relative;
+}
+.cart > input {
+  background-color: aqua;
+  width: 340px;
+  margin: 5px;
+}
+
+.cart > textarea {
+  background-color: aqua;
+  width: 340px;
+  height: 180px;
+}
+
+.cart > div {
+  height: 150px;
+
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart > h4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+hr {
+  border-color: black;
+}
+
+.butplus {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.pen {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.gridpos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 10px;
+  gap: 20px 10px;
+  @media (max-width: 1500px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.change {
+}
+
+.change > input {
+  width: 500px;
+  font-size: large;
+}
+
+.change > textarea {
+  width: 500px;
+  height: 300px;
+  font-size: large;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.mainaside {
+  display: grid;
+  grid-template-columns: 1fr 5px;
+  position: fixed;
+  background-color: aqua;
+}
+
+.aside > button {
+  height: 50px;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 1000px; /* задайте нужную высоту */
+  margin-left: 5px;
+}
+
+.Срочные {
+  background-color: red;
+}
+
+.Важные {
+  background-color: orange;
+}
+
+.Обычные {
+  background-color: green;
+}
+
+.Дневник {
+  background-color: blue;
+}
+
+.Секретные {
+  background-color: black;
+  color: white;
+}
+
+.natpic {
+  position: fixed;
+  top: 425px;
+  margin: auto;
+}
+
+.backet {
+  position: absolute;
+  bottom: 5px;
+  right: 25px;
+}
