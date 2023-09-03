@@ -25,6 +25,7 @@ const MyModal: React.FC<IModal> = ({ isOpen, setOpen, children }) => {
       }
     });
   }, [setOpen]);
+  //fdrfgruyh5yt5yfytryg
 
   return (
     <div
